@@ -1,0 +1,197 @@
+.container
+{
+    background-color:rgb(248, 244, 244) ;
+}
+.head
+{
+    float: left;
+    font-size: 20px;
+}
+.head1
+{
+   
+padding: 20px;
+color: gray;
+}
+.asideNa
+{
+    width: 30%;
+}
+.title
+{
+    padding: 40px;
+}
+.dateContainer
+{
+    padding: 10px 40px;
+}
+.event
+{
+    margin-top: 20px;
+}
+.mainRow
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.columnOne
+{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 40%;
+    height: 750px;
+}
+.columnTwo
+{
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    margin-top:3cm;
+    margin-left: -2cm;
+}
+.ii
+{
+    padding: 25px;
+    float: left;
+}
+.ii1
+{
+    padding: 25px;
+    float: left;
+    margin-left: 18cm;
+    position: absolute;
+}
+.ii2
+{
+    padding: 25px;
+    float: left;
+    margin-left: 18cm;
+    position: absolute;
+}
+.details
+{
+ float: left;
+    
+    margin-top: 10px;
+}
+.details1
+{
+ float: left;
+    
+    margin-top: 20px;
+}
+.time
+{
+    color: gray;
+
+}
+.tit
+{
+    margin-top: 12px;
+    margin-left: 13.5cm;
+    color: blue;
+    cursor: pointer;
+}
+.tit1
+{
+    margin-top: 12px;
+    margin-left: 16cm;
+    color: blue;
+    cursor: pointer;
+}
+.timing
+{
+    padding: 15px;
+    
+}
+.tabl
+{
+    margin-left: 15px;
+}
+.btns
+{
+    background-color: #fff;
+    color: gray;
+    width: 3.2cm;
+    height: 1cm;
+    border-radius: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+    
+}
+.bs
+{padding: 20px;
+    margin-left: -20px;
+}
+.active
+{
+    background-color: rgb(39, 39, 214);
+    color: #fff;
+    width: 3.2cm;
+    height: 1cm;
+    border-radius: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+/* tablet & mobile screens */
+@media only screen and (max-width: 768px) {
+    .columnOne {
+      width: 100%;
+    }
+    .columnTwo {
+     width: 100%;
+     height: 100%;
+     margin-top: -8cm;
+     margin-left: 0cm;
+  
+    }
+    .mainRow
+    {
+        flex-direction: column;
+    }
+
+.btns
+{
+    background-color: #fff;
+    color: gray;
+    width: 1.3cm;
+    height: 1cm;
+    border-radius: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 10px;
+    
+}
+.active
+{
+    background-color: rgb(39, 39, 214);
+    color: #fff;
+    width: 1.3cm;
+    height: 1cm;
+    border-radius: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 10px;
+}
+.timing
+{
+    padding: 15px;
+    
+}
+.ii1
+{
+    margin-left: 9cm;
+}
+.tit{
+    margin-left: 4.5cm;
+}
+.tit1{
+    margin-left: 7cm;
+}
+.ii2
+{
+    margin-left: 9cm;
+}
+}
